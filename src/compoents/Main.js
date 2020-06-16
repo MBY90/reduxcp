@@ -7,8 +7,8 @@ import incriment from '../redux/actions/incriment'
     return (
         <div style={{backgroundColor:'gray'}}>
             <h1 style={{color:props.counter>=0?'green':'red'}}>{props.counter}</h1>
-            <button style={{color:'green'}} onClick={()=>{props.inc()}} >+</button>
-            <button style={{color:'red'}} onClick={()=>{props.dec()}} >-</button>
+            <button style={{color:'green'}} onClick={()=>{props.inc()}} ><h1>+</h1></button>
+            <button style={{color:'red'}} onClick={()=>{props.dec()}} ><h1>-</h1></button>
             
         </div>
     )
