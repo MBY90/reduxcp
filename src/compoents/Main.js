@@ -10,7 +10,7 @@ import reset from '../redux/actions/reset'
             <h1 style={{color:props.counter>=0?'green':'red'}}>{props.counter}</h1>
             <button style={{color:'green'}} onClick={()=>{props.inc()}} ><h1>+</h1></button>
             <button style={{color:'red'}} onClick={()=>{props.dec()}} ><h1>-</h1></button>
-            <button style={{color:'blue'}} onClick={()=>{props.raz()}} ><h1>RAZ</h1></button>
+            <button style={{color:'blue'}} onClick={()=>{props.raz()}} ><h1>0</h1></button>
         </div>
     )
 }
